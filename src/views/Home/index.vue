@@ -234,7 +234,7 @@ onMounted(() => {
               @click="
                 router.push({
                   name: 'InfoPage',
-                  params: { toothRepoOwner: item.toothRepoOwner, toothRepoName: item.toothRepoName, version: item.versions[item.versions.length-1].replaceAll('.', ',') },
+                  params: { toothRepoOwner: item.toothRepoOwner, toothRepoName: item.toothRepoName, version: item.versions[item.versions.length-1] },
                 })
               "
               ><div class="flex flex-col">
